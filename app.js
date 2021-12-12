@@ -4,5 +4,5 @@ const path = require('path')
 var routing = require('./routing');
 app.use('/',routing);
 app.use(express.static(__dirname))
-app.listen(5050);
+app.listen(8080);
 console.log('serever is running..!')
